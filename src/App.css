@@ -14,5 +14,103 @@
   color: white;
 } */
 
+.header-container {
+  display: flex;
+  justify-content: center;
+}
 
+.header {
+  margin-top: 10vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(111, 111, 111, 0.755);
+  padding-bottom: 5vh;
+}
 
+.get-joke-btn {
+  border-radius: 30px;
+  background-color: rgb(94, 196, 94);
+  border: 0;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+}
+
+.joke-content {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.joke-content-error {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: rgb(179, 0, 0);
+}
+
+.joke-sub-content {
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+}
+
+.joke-setup {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  align-self: flex-start;
+  height: 7.5vh;
+  background-image: url('../src/assets/downquote.png');
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-size: 100px ;
+}
+
+.joke-punch-line {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  align-self: flex-end;
+  height: 7.5vh;
+  background-image: url('../src/assets/upquote.png');
+  background-repeat: no-repeat;
+  background-size: 100px ;
+  background-position: right 0px;
+  padding: 15px;
+  min-width: 200px;
+}
+
+.loading-joke {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: gray;
+}
+
+@media only screen and (max-width: 505px)  {
+  .header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-link {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+  }
+}
+
+/* @media only screen and (min-width: 500px) and (max-width: 550px) {
+
+} */
