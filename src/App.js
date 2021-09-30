@@ -1,11 +1,10 @@
 import './App.css';
-// import Button from '@mui/material/Button';
-// import { SendIcon, AcUnit } from '@mui/icons-material';
+import Dashboard from './components/Dashboard.js';
 
 function App() {
   return (
     <div className='App'>
-      
+      <Dashboard />
     </div>
   );
 }
